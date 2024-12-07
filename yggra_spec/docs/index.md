@@ -7,22 +7,22 @@ Yggra represents a fundamental reimagining of how personal data can be stored, a
 ## Document Structure
 
 ### Main Sections
-1. [System Overview](docs/01-overview/)
-2. [Architectural Overview](docs/02-architecture/)
-3. [Core Components](docs/03-components/)
-4. [Data Models](docs/04-data-models/)
-5. [Core Processes](docs/05-processes/)
-6. [Interfaces and APIs](docs/06-interfaces/)
-7. [Implementation Considerations](docs/07-implementation/)
-8. [Development and Deployment](docs/08-development/)
-9. [Examples and Use Cases](docs/09-examples/)
-10. [Future Considerations](docs/10-future/)
+1. [System Overview](01-overview/)
+2. [Architectural Overview](02-architecture/)
+3. [Core Components](03-components/)
+4. [Data Models](04-data-models/)
+5. [Core Processes](05-processes/)
+6. [Interfaces and APIs](06-interfaces/)
+7. [Implementation Considerations](07-implementation/)
+8. [Development and Deployment](08-development/)
+9. [Examples and Use Cases](09-examples/)
+10. [Future Considerations](10-future/)
 
 ### Appendices
-- [Appendix A: Terminology](appendices/A-terminology.md)
-- [Appendix B: Reference Implementations](appendices/B-reference-implementations.md)
-- [Appendix C: API Documentation](appendices/C-api-documentation.md)
-- [Appendix D: Security Model](appendices/D-security-model.md)
+- [Appendix A: Terminology](appendices/A-terminology)
+- [Appendix B: Reference Implementations](appendices/B-reference-implementations)
+- [Appendix C: API Documentation](appendices/C-api-documentation)
+- [Appendix D: Security Model](appendices/D-security-model)
 
 ## Contributing
 This specification is maintained as a living document. To contribute:
