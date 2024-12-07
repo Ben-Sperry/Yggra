@@ -1,3 +1,21 @@
+# 1. System Overview
+
+## 1.1 Purpose and Vision
+
+In today's digital world, we find ourselves increasingly overwhelmed by the complexity of managing our personal information. Our memories, communications, documents, and relationships are scattered across dozens of services, devices, and applications. We struggle to find what we need when we need it, worry about preserving what's important, and feel a growing unease about who has access to our data. The current paradigm of digital life forces us to adapt to the limitations and demands of technology, rather than having technology serve our needs.
+
+Yggra fundamentally reimagines this relationship by creating a personal data ecosystem where all your information exists in a unified, private space under your complete control. Imagine being able to instantly find that recipe your cousin shared years ago, complete with your notes and modifications, regardless of whether it came through email, social media, or a photographed handwritten card. Picture having your work and personal lives seamlessly integrated yet perfectly separated, where switching contexts is as natural as changing your train of thought. Envision a future where your digital legacy can be preserved and shared exactly as you wish, ensuring that precious memories and knowledge persist for generations while private matters remain private.
+
+At its core, Yggra is built on a sophisticated graph structure that captures not just your data, but also its context, relationships, and evolution over time. Unlike traditional systems where applications own and control your data, Yggra inverts this relationship – applications become specialized lenses into your unified data space, similar to how different maps can represent the same physical terrain for different purposes. When you adopt a new application, it simply provides another way to view and interact with your existing information. No more tedious exports and imports, no more lost history, no more starting from scratch.
+
+This approach solves numerous long-standing problems in personal computing. The fragmentation of information across different services becomes a thing of the past, as everything is connected in your personal graph. Data persistence is guaranteed through intelligent storage management that automatically handles backup, redundancy, and format evolution. Privacy is ensured because you control exactly what is shared and with whom, with the ability to revoke access at any time. Moving between devices becomes seamless as your graph maintains perfect synchronization while intelligently managing what data should be available where and when.
+
+Beyond these immediate benefits, Yggra enables entirely new possibilities. Your personal knowledge can evolve and grow as new connections are discovered between different pieces of information. Your attention can be managed intelligently, with distractions filtered and important information surfaced at the right time. Your relationships can be maintained more naturally, with contact information automatically staying current through secure shared views. Your digital legacy can be preserved exactly as you wish, with sophisticated rules determining what information should be available to whom and under what circumstances.
+
+What makes Yggra truly revolutionary is that it achieves all this while maintaining strict user control and privacy. Unlike current systems where our data is scattered across corporate servers and used primarily for others' benefit, Yggra creates a sovereign personal data space that serves your interests first. It enables rich sharing and collaboration without compromising privacy, and sophisticated features without surrendering control.
+
+The technology behind Yggra is built on three primary layers: a flexible storage layer that can adapt to any storage technology, a powerful graph layer that maintains the relationships between all your information, and an application interface layer that enables any application to work with your data in familiar ways. This architecture ensures that Yggra can evolve with technology while maintaining its core promise: putting you back in control of your digital life.
+
 ## 1.2 Core Principles
 
 ### Data Atomicity
@@ -132,3 +150,45 @@ All sharing is managed through facets that interact with other users' Yggra inst
 - Usage of shared data can be monitored and audited
 
 This approach transforms sharing from a potential vulnerability into a powerful tool for collaboration while maintaining personal data sovereignty.
+
+## 1.3 System Context
+
+Yggra fundamentally transforms how personal computing works by changing the relationship between users, their data, and their applications. Instead of users having to manage their digital lives across dozens of different services and storage systems, Yggra creates a unified personal data ecosystem where everything just works.
+
+### A New Relationship with Data
+
+Today, users face constant decisions about their data: Which cloud service should store these photos? Where did I save that document? How do I share these files? Yggra eliminates these concerns entirely. Users simply interact with their data through applications, while Yggra ensures everything remains available and accessible. When you take a photo, write a document, or receive a message, you never need to think about where it's stored or how to find it later - Yggra guarantees it will be there when you need it, in the format you need it.
+
+### Guarantees, Not Options
+
+Unlike traditional systems that offer users complex choices about storage and sync options, Yggra provides straightforward guarantees:
+- Your data will always be available when you need it
+- You'll always be able to access it in the format you need
+- You'll never lose important information
+- You'll always control who can access your data
+- Your privacy will always be protected
+
+These aren't features to be configured or services to be purchased - they're fundamental guarantees that Yggra provides.
+
+### Beyond Storage
+
+While Yggra can replace traditional storage and cloud services, it's not simply a better storage system. It's a comprehensive solution that understands not just where your data is, but what it means to you and how you use it. When you store a photo, Yggra maintains all the rich context - who's in it, when and where it was taken, what event it relates to, which album it belongs in - and this context remains with your data regardless of which application you use to view or edit it.
+
+This contextual understanding enables Yggra to make sophisticated decisions about how to manage your data, ensuring it's always available in the most appropriate way for your current needs, without you having to think about where it's stored or how to access it.
+
+## 1.4 Key Terms and Concepts
+
+### Entity
+The fundamental unit of information in the system. An entity is defined by its properties and relationships rather than by arbitrary identifiers. Entities can represent anything from digital objects (photos, documents) to abstract concepts (events, tags).
+
+### Statement
+An immutable assertion about an entity, expressed as a triple (subject, predicate, object). Statements are the atomic units of data in the system and can never be modified or deleted, only superseded by new statements.
+
+### Application Interface
+A specialized view of the graph data that presents information in a format matching an application's requirements. These interfaces can be implemented as familiar data structures like SQL databases, key-value stores, or file systems.
+
+### Data View
+A filtered, formatted perspective of the graph data, created for sharing purposes. Views provide controlled access to specific subsets of data with defined properties and relationships.
+
+### Storage Reference
+A pointer to data stored in external systems, along with metadata about its storage location, access methods, and integrity verification information. Storage references allow the system to optimize data placement without affecting how applications access the data.
