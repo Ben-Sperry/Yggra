@@ -32,4 +32,4 @@ This specification is maintained as a living document. To contribute:
 4. Submit a pull request with a clear description of the changes
 
 ## License
-[Specify your chosen license]
+GNU AFFERO GENERAL PUBLIC LICENSE
